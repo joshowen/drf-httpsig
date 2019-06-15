@@ -39,7 +39,7 @@ setup(
     setup_requires=['pytest-runner', 'setuptools_scm'],
     tests_require=['pytest', 'pytest-django'],
     install_requires=[
-        'djangorestframework<3',
+        'djangorestframework<4',
         'django<=1.7',
         'httpsig<2'
     ]

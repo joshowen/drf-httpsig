@@ -40,7 +40,7 @@ setup(
     tests_require=['pytest', 'pytest-django'],
     install_requires=[
         'djangorestframework<3',
-        'django<=1.7',
+        'django<3.2',
         'httpsig<2'
     ]
 )
